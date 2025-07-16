@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - e-Shelf</title>
+    <link rel="icon" type="image/x-icon" href="version2.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        h1 span.highlight {
+            color: #00d8c7;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #888;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 600px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 40px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background-color: #00d8c7;
+            color: #000;
+            border-color: #00d8c7;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: #fff;
+            border-color: #fff;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 216, 199, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="highlight">Student</span> Portal</h1>
+        <p>We provide a comprehensive digital platform for students to manage their academic journey, access resources, and stay connected with their educational ecosystem.</p>
+        <div class="buttons">
+            <a href="login.php" class="btn btn-primary">Login</a>
+            <a href="register.php" class="btn btn-outline">Register</a>
+        </div>
+    </div>
+</body>
+</html>
